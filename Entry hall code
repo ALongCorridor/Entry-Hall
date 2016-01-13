@@ -3,4 +3,7 @@ name = raw_input("What is your name weary traveller?")
 print "Good day", name 
 begin = raw_input "Are you ready to start your adventure?"
 
+if begin == "Yes", "yes":
+  print ("Good, then let your journey begin.")
+
 
