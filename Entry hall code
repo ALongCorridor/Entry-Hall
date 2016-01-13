@@ -10,7 +10,9 @@ if begin == "Yes" + "yes":
 time.sleep(1)
 
 print("Which door do you choose, be wary though traveller... ")
+
 time.sleep(1)
+
 doorchoice = raw_input("for once you choose a door there is no going back. (left/right)")
 
 if doorchoice == ("left"):
