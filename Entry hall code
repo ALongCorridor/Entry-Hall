@@ -3,9 +3,9 @@ import sys
 name = raw_input("What is your name weary traveller?")
 
 print "Good day", name 
-begin = raw_input ("Are you ready to start your adventure?")
+begin = raw_input ("Are you ready to start your adventure? (y/n)")
 
-if begin == "Yes" + "yes":
+if begin == "y":
     print ("Good, then let your journey begin.")
 
     time.sleep(1)
@@ -20,7 +20,6 @@ if begin == "Yes" + "yes":
     
     elif doorchoice == ("right"):
         print("Hmmm interesting")
-elif begin == "no" + "No":
+elif begin == "n":
     sys.exit("boob")
-
- 
+    
